@@ -4,6 +4,7 @@ set -e
 export GO111MODULE=on
 export GOFLAGS=-mod=vendor
 
+RELEASE_VERSION=v0.0.12
 PROVIDER_ROOT=$(git rev-parse --show-toplevel)
 COMMIT_HASH=$(git rev-parse --short HEAD 2>/dev/null)
 DATE=$(date "+%Y-%m-%d")
